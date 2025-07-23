@@ -1,10 +1,10 @@
-{/*import { useContext } from "react";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav, Container, Badge } from "react-bootstrap";
 import { CarritoContext } from "../contexts/CarritoContext";
 import { useAuthContext } from "../contexts/AuthContext";
 import { FaShoppingCart } from "react-icons/fa";
-
+{/*}
 function NavBoostrap() {
   const { productosCarrito } = useContext(CarritoContext);
   const { admin } = useAuthContext();
@@ -38,16 +38,11 @@ function NavBoostrap() {
       </Container>
     </Navbar>
   );
-}
+}*/}
 
-export default NavBoostrap;*/}
+{/*export default NavBoostrap;*/}
 
-import { useContext } from "react";
-import { Link } from "react-router-dom";
-import { Navbar, Nav, Container, Badge } from "react-bootstrap";
-import { CarritoContext } from "../contexts/CarritoContext";
-import { useAuthContext } from "../contexts/AuthContext";
-import { FaShoppingCart } from "react-icons/fa";
+
 
 function NavBoostrap() {
   const { productosCarrito } = useContext(CarritoContext);
@@ -135,5 +130,4 @@ function NavBoostrap() {
   );
 }
 
-export default NavBoostrap;
-
+export default NavBoostrap
