@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { createUserWithEmailAndPassword, FacebookAuthProvider, getAuth, GoogleAuthProvider, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDYurvqxgCTQ92os8BvGnGAoE3g3YrTR0c",
-    authDomain: "prueba-auth-e64d8.firebaseapp.com",
-    projectId: "prueba-auth-e64d8",
-    storageBucket: "prueba-auth-e64d8.firebasestorage.app",
-    messagingSenderId: "1042020842950",
-    appId: "1:1042020842950:web:b2694d263646612bb606c7",
+  apiKey: "AIzaSyBs0bLjXIgqNUmSXomyHt4UmcvbeqmhVXQ",
+  authDomain: "petshopecommerce-e1842.firebaseapp.com",
+  projectId: "petshopecommerce-e1842",
+  storageBucket: "petshopecommerce-e1842.firebasestorage.app",
+  messagingSenderId: "33318540871",
+  appId: "1:33318540871:web:322bd9b2f016a92a0f8362"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -220,14 +220,3 @@ export function obtenerProductoEnFirebase(id) {
     )
 }
 
-/*crearProducto("test", "url", 23, "klasjdklsajdsaldkklasdljka").then(() => {
-    console.log("si")
-}).catch((error) => {
-    console.log(error)
-})*/
-
-/*obtenerProductos().then((prod) => {
-    console.log(prod)
-}).catch((error) => {
-    console.log(error)
-})*/

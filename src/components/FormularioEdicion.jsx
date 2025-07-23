@@ -50,7 +50,7 @@ function FormularioEdicion({ }) {
       return("La descripción debe tener al menos 10 caracteres.")
     }
     if(!producto.imagen.trim()){
-      return("La url de la imgaen no debe estar vacía")
+      return("La url de la imagen no debe estar vacía")
     }
     else{
       return true
