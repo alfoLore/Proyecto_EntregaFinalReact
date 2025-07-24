@@ -43,8 +43,12 @@ npm run dev
 - El administrador puede gestionar productos (agregar, editar, eliminar).  
 - Credenciales administrador:  
   - Email: admin@gmail.com  
-  - Contraseña: admin  
-
+  - Contraseña: admin11
+  El Nuevo usuario de la PetShop Alfonso , se puede registrar o utilizar alguno ya cargado .
+  usuario : alfonso@gmail.com
+  pass : $Alfonso  
+ MOCKAPI : https://687fa0a5efe65e52008a71ab.mockapi.io/productos
+ Firebase : 
 ## Estructura  
 - `/src` contiene componentes React, contextos para estado global y estilos.  
 - Context API para manejo del carrito y autenticación.  

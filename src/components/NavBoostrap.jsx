@@ -70,7 +70,7 @@ function NavBoostrap() {
             fontSize: "1.5rem",
           }}
         >
-          🐶 PetShop Alfonso
+            Alfonso PetShop
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="nav-principal" />

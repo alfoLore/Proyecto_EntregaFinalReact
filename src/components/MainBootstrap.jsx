@@ -1,21 +1,28 @@
+
+
 import { Container, Row, Col, Image } from "react-bootstrap";
+import "../styles/MainBootstrap.css"; // Asegurate de tener este archivo para estilos personalizados
+
+
 
 function MainBootstrap() {
   return (
-    <Container className="my-4">
+    <Container className="my-5 main-container">
       <Row className="align-items-center">
-        <Col xs={12} md={4} lg={4}>
-          <Image
-            src="https://www.uship.com/learn/ca/wp-content/uploads/sites/3/thumbnail-placeholder-300x200-300x200.png"
-            alt="Imagen ilustrativa"
-            fluid
-            rounded
-          />
+        <Col xs={12} md={5} lg={4}>
+          <div className="main-image-wrapper">
+            <Image
+              src="https://i.postimg.cc/YCY03RDT/imagen-perro-con-anteojos.jpg"
+              alt="foto perro con anteojos"
+              fluid
+              className="main-image"
+            />
+          </div>
         </Col>
-        <Col xs={12} md={8} lg={8}>
-          <h2>Contenido Principal</h2>
-          <p>
-            Este es un ejemplo de contenido dentro del área principal.
+        <Col xs={12} md={7} lg={8}>
+          <h2 className="main-title">Bienvenido a Nuestra Petshop</h2>
+          <p className="main-text">
+            Cuidamos a tus mascotas con productos de calidad, cariño y compromiso. Descubrí todo lo que tenemos para vos y tu mejor amigo.
           </p>
         </Col>
       </Row>
@@ -23,4 +30,4 @@ function MainBootstrap() {
   );
 }
 
-export default MainBootstrap;
+export default MainBootstrap
