@@ -34,7 +34,7 @@ function Footer() {
             
             <p>
               <FaEnvelope style={{ marginRight: "6px" }} />
-              contacto@petshopalfonso.com
+              contacto@barbaspetshop.com
             </p>
           </Col>
 
@@ -95,7 +95,7 @@ function Footer() {
 
         <hr style={{ borderColor: "#f1e6eb" }} />
         <p className="text-center" style={{ fontSize: "0.85rem", color: "#a59eab" }}>
-          &copy; 2025 - PetShop Alfonso |  by Lorena
+          &copy; 2025 - Barbas PetShop  |  by Lorena
         </p>
       </Container>
 

@@ -19,7 +19,7 @@ function Header() {
             fontWeight: "500",
           }}
         >
-         Bienvenidos a mi Petshop
+         Bienvenidos Barbas Petshop
         </Navbar.Brand>
       </Container>
     </Navbar>

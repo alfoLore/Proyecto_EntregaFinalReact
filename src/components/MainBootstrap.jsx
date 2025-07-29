@@ -20,7 +20,7 @@ function MainBootstrap() {
           </div>
         </Col>
         <Col xs={12} md={7} lg={8}>
-          <h2 className="main-title">Bienvenido a Nuestra Petshop</h2>
+          <h2 className="main-title">Bienvenido al Barbas Petshop</h2>
           <p className="main-text">
             Cuidamos a tus mascotas con productos de calidad, cariño y compromiso. Descubrí todo lo que tenemos para vos y tu mejor amigo.
           </p>

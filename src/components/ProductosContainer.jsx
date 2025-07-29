@@ -57,7 +57,7 @@ function ProductosContainer({}){
         return(
             <div>
                 <Helmet>
-                    <title>Productos | Mi Tienda</title>
+                    <title>Productos | Barbas Petshop</title>
                     <meta name="description" content="Explora nuestra variedad de productos." />
                 </Helmet>
                 <div className="input-group mb-3 mt-3">
